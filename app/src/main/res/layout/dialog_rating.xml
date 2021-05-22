@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:background="@android:color/transparent"
+              android:orientation="vertical"
+android:padding="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rate_dialog"
+        android:orientation="vertical"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rate_review_icon" />
+
+            <com.templatevilla.colorbookspaint.view.DialogTextViewView
+                android:padding="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/komikax"
+                app:strokeColor="#3A2806"
+                app:outerShadowRadius="1dp"
+                android:textStyle="bold"
+                app:strokeJoinStyle="miter"
+                android:text="@string/rate_experience"
+                android:includeFontPadding="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#0C8DA2" />
+
+            <com.templatevilla.colorbookspaint.view.DialogTextViewView
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:includeFontPadding="false"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/komikax"
+                app:strokeColor="#3A2806"
+                app:outerShadowRadius="1dp"
+                android:text="@string/rate_msg"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#0C8DA2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical">
+
+            <RatingBar
+                android:id="@+id/rating_bar"
+                style="@style/MyRatingBarTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+            <ImageView
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/submit" />
+
+            <com.templatevilla.colorbookspaint.view.DialogTextViewView
+                android:id="@+id/tv_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:strokeColor="#3A2806"
+                app:outerShadowRadius="1dp"
+                android:layout_margin="3dp"
+                android:textStyle="bold"
+                app:strokeJoinStyle="miter"
+                android:fontFamily="@font/komikax"
+                android:text="@string/no_thanks"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#0FB5CF" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

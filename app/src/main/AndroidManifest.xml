@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.templatevilla.colorbookspaint">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <!-- This permissions are neccessary for broadcast receiver -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="true"
+        android:fullBackupOnly="true"
+        android:name="com.templatevilla.colorbookspaint.application.MyApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+
+<!--        <receiver-->
+<!--            android:name=".util.ConnectivityReceiver"-->
+<!--            android:enabled="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />-->
+<!--                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />-->
+<!--                <action android:name="android.net.wifi.STATE_CHANGE" />-->
+<!--            </intent-filter>-->
+<!--        </receiver>-->
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/app_id"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.templatevilla.colorbookspaint.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android:authorities">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity
+            android:name="com.templatevilla.colorbookspaint.ui.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.templatevilla.colorbookspaint.ui.EasyPaint"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.templatevilla.colorbookspaint.ui.SelectImage"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.templatevilla.colorbookspaint.ui.SelectStickerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.templatevilla.colorbookspaint.ui.MyCreation"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.templatevilla.colorbookspaint.ui.ImageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.templatevilla.colorbookspaint.ui.ActivityShare"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+      <activity
+            android:name="com.templatevilla.colorbookspaint.ui.SubImage"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+
+        <activity android:name="com.templatevilla.colorbookspaint.ui.HardPaint"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+    </application>
+
+</manifest>

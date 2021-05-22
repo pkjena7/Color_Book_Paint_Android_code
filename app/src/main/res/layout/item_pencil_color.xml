@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="25dp"
+    android:layout_height="match_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layout_frame"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pencilshadow" />
+        <ImageView
+            android:id="@+id/img_pencil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pencil_back" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pencil" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pencilshadow" />
+    </FrameLayout>
+</RelativeLayout><!--<ImageView--><!--xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:id="@+id/img_pencil"--><!--android:layout_width="25dp"--><!--android:layout_height="50dp"--><!--android:paddingTop="5dp"--><!--android:layout_margin="5dp"--><!--android:src="@drawable/pen"--><!--&gt;-->
+
+    <!--</ImageView>-->

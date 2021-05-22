@@ -1,0 +1,96 @@
+<resources>
+
+    <string name="app_name"> Color Book paint </string>
+
+    <string name="let_s_play">Let\'s play</string>
+    <string name="select_image">Select image</string>
+    <string name="back">Back</string>
+    <string name="redo">Redo</string>
+    <string name="undo">Undo</string>
+    <string name="save">Save</string>
+    <string name="brush">Brush</string>
+    <string name="magic_brush">Magic Brush</string>
+    <string name="pencil">Pencil</string>
+    <string name="add_text">Add text</string>
+    <string name="clear">Clear</string>
+    <string name="eraser">Eraser</string>
+    <string name="brush_size">Brush Size</string>
+    <string name="smoothness">Smoothness</string>
+    <string name="background">Background</string>
+    <string name="forground">Forground</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="cpv_default_title">Select a Color</string>
+    <string name="cpv_presets">Presets</string>
+    <string name="cpv_custom">Custom</string>
+    <string name="cpv_select">Select</string>
+    <string name="todo">TODO</string>
+    <string name="cpv_transparency">Transparency</string>
+    <string name="enter_your_text_here">Enter your text here…</string>
+    <string name="shadow">Shadow</string>
+    <string name="adjust">ADJUST</string>
+    <string name="highlight">Highlight</string>
+    <string name="stroke">Stroke</string>
+    <string name="str_r">R</string>
+    <string name="str_x">x</string>
+    <string name="y">y</string>
+    <string name="align">ALIGN</string>
+    <string name="font">Font</string>
+    <string name="my_creation">My Creation</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="photo_editor_share_image">Share Image</string>
+    <string name="add">add</string>
+    <string name="sticker">Sticker</string>
+    <string name="eraser_size">Eraser Size</string>
+    <string name="enter_text_here">Enter text here…</string>
+    <string name="exit_text">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="reset">Reset</string>
+    <string name="SHARE_APP_LINK">"https://play.google.com/store/apps/details?id=&quot;</string>
+    <string name="pinch_to_zoom">Pinch to zoom</string>
+    <string name="scroll_left_right">Scroll left-right</string>
+    <string name="no_data">No data</string>
+    <string name="unselect_zoom">Please unselect zoomView..</string>
+    <string name="no_internet">Turn on Your internet</string>
+    <string name="edit">Edit</string>
+
+    <string name="ADS_VISIBILITY" translatable="false">YES</string>
+    <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interestial_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="image_param" translatable="false">category</string>
+    <string name="image_param1" translatable="false">level</string>
+    <string name="data" translatable="false">data</string>
+    <string name="category_id" translatable="false">category_id</string>
+    <string name="image_id" translatable="false">image_id</string>
+    <string name="name" translatable="false">name</string>
+    <string name="image" translatable="false">image</string>
+    <string name="images" translatable="false">images</string>
+    <string name="download_image">Download Image…</string>
+    <string name="download_success">Image download Successfully…</string>
+    <string name="save_success">Image Saved Successfully…</string>
+    <string name="download_error">Image not available…</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="main_category">main_category</string>
+    <string name="no_category">no category available</string>
+    <string name="rate_experience">Rate Your Experience</string>
+    <string name="rate_msg">if you enjoy using app \n would you mind ratting us,then…?</string>
+    <string name="no_thanks">No, Thanks</string>
+    <string name="rating_error">Please select rate</string>
+    <string name="feedback_hint">Tell us where we can improve?</string>
+
+
+    <string name="privacy_policy_link" translatable="false">http://www.google.co.uk/</string>
+
+
+    <string name="feedback_mail">templatevilla007@gmail.com</string>
+
+    <string name="easy" translatable="false">Easy</string>
+    <string name="hard" translatable="false">Hard</string>
+
+
+</resources>

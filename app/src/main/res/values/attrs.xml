@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DrawingView">
+        <attr name="brush_color" format="color"/>
+        <attr name="drawing_background_color" format="color"/>
+        <attr name="brush_size" format="float" />
+        <attr name="brush" format="integer">
+            <enum name="pen" value="0"/>
+            <enum name="pencil" value="1"/>
+            <enum name="calligraphy" value="2"/>
+            <enum name="air_brush" value="3"/>
+            <enum name="eraser" value="4"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FButton">
+        <attr name="shadowEnabled" format="boolean" />
+        <attr name="buttonColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="shadowHeight" format="dimension" />
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+
+
+
+
+
+    <declare-styleable name="ColorPanelView">
+        <attr format="boolean" name="cpv_showOldColor"/>
+        <attr format="enum" name="cpv_colorShape">
+            <enum name="square" value="0"/>
+            <enum name="circle" value="1"/>
+        </attr>
+        <attr format="color|reference" name="cpv_borderColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorPickerView" parent="ColorPanelView">
+        <attr format="boolean|reference" name="cpv_alphaChannelVisible"/>
+        <attr format="string|reference" name="cpv_alphaChannelText"/>
+        <attr format="color|reference" name="cpv_sliderColor"/>
+        <attr name="cpv_borderColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorPreference" parent="ColorPickerDialog">
+        <attr format="boolean|reference" name="cpv_showAlphaSlider"/>
+        <attr format="enum" name="cpv_previewSize">
+            <enum name="regular" value="0"/>
+            <enum name="large" value="1"/>
+        </attr>
+        <attr name="cpv_colorShape"/>
+        <attr format="reference" name="cpv_dialogTitle"/>
+        <attr format="reference" name="cpv_colorPresets"/>
+        <attr format="enum" name="cpv_dialogType">
+            <enum name="custom" value="0"/>
+            <enum name="preset" value="1"/>
+        </attr>
+        <attr format="boolean|reference" name="cpv_showColorShades"/>
+        <attr format="boolean|reference" name="cpv_allowPresets"/>
+        <attr format="boolean|reference" name="cpv_allowCustom"/>
+        <attr format="boolean|reference" name="cpv_showDialog"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomTextView">
+        <attr name="innerShadowColor" format="color"/>
+        <attr name="innerShadowRadius" format="dimension"/>
+        <attr name="innerShadowDx" format="dimension"/>
+        <attr name="innerShadowDy" format="dimension"/>
+
+        <attr name="outerShadowColor" format="color"/>
+        <attr name="outerShadowRadius" format="dimension"/>
+        <attr name="outerShadowDx" format="dimension"/>
+        <attr name="outerShadowDy" format="dimension"/>
+
+        <attr name="typeface" format="string" />
+
+
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="strokeMiter" format="dimension" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeJoinStyle">
+            <enum name="miter" value="0" />
+            <enum name="bevel" value="1" />
+            <enum name="round" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

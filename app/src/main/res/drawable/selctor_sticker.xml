@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item android:drawable="@drawable/sticker_seleted" android:state_pressed="true"/>
+        <!-- focused -->
+        <item android:drawable="@drawable/sticker" android:state_focused="true"/>
+        <!-- default -->
+        <item android:drawable="@drawable/sticker"/>
+     
+</selector>
